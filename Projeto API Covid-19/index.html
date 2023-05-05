@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/covid.png" />
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/responsivo.css">
+
+
+    <title>Projeto API COVID 19</title>
+</head>
+
+<body>
+
+    <!-- Cabeçalho do site -->
+    <header>
+        <a href="index.html"><img id="img-header" src="img/virus1.png" alt="vírus"></a>
+        <p>API COVID 19</p>
+    </header>
+
+    <!-- Menu do site -->
+    <nav>
+        <a href="index.html">Página Inicial</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="equipe.html">Equipe de projeto</a>
+    </nav>
+
+    <!-- Meio do site -->
+    <div id="container-index">
+        <div id="div-erro"></div>
+
+        <div id="t-mapa">
+            <div id="titulo">Covid-19 pelo mundo</div>
+            <div id="mapa"></div> 
+        </div>
+
+        <div  id="t-pizza">
+            <div id="titulo">Covid-19 pelo mundo - Status</div>
+            <div id="pizza"></div>
+        </div>
+    </div>
+
+    <div id="grandao">
+        <div id="titulo-table">Covid-19 no Brasil</div>
+        <div class="t-div" id="t-tabela">
+            <div id="tabela">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Sigla</td>
+                            <td>Estados</td>
+                            <td>Casos</td>
+                            <td>Mortes</td>
+                            <td>Suspeitos</td>
+                            <td>Descartados</td>
+                        </tr>
+                    </thead>
+                    <tbody id="linha"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Projeto API COVID-19</p>
+        <p>Aluna Maria Clara</p>
+        <div id="img-footer">
+            <a href="sobre.html"><img class="imgf" src="img/html5.png"></a>
+            <a href="sobre.html"><img class="imgf" src="img/css3.png"></a>
+            <a href="sobre.html"><img class="imgf" src="img/script-java.png"></a>
+            <a href="sobre.html"><img class="imgf" src="img/api.png"></a>
+            <a href="sobre.html"><img class="imgf" src="img/google-charts.png"></a>
+        </div>
+
+</body>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="js/api.js"></script>
+<script type="text/javascript" src="js/graficos.js"></script>
+
+</html>

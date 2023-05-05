@@ -1,0 +1,383 @@
+/*** RESPONSIVO CELULAR ***/
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 18px 18px;
+        background-color: #0D0D0D;
+        color: white;
+        display: flex;
+        font-family: Impact;
+        font-size: 17px;
+    }
+
+    nav a {
+        margin: 5px 30px 5px 0;
+        font-size: 15px;
+        font-family: Impact;
+        text-decoration: none;
+        color: white;
+    }
+
+    /* INDEX */
+
+    #container-index {
+        margin: 20px 30px 0 35px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mapa {
+        height: 215px;
+        width: 100%;
+    }
+
+    #pizza {
+        height: 215px;
+        width: 100%;
+    }
+
+    #t-mapa {
+        margin: 30px auto;
+        width: 95%;
+    }
+
+    #t-pizza {
+        margin: 30px auto;
+        width: 95%;
+    }
+
+    #t-tabela {
+        width: 95%;
+        margin: 0 auto 40px auto;
+        align-items: center;
+    }
+
+    #titulo-table {
+        width: 91%;
+        padding: 5px 5px;
+        background-color: #0D0D0D;
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #tabela {
+        font-size: 10px;
+        max-width: 100%;
+        max-height: 80px;
+    }
+
+    #grandao {
+        max-width: 95%;
+        max-height: 100px;
+        margin: 5px auto 700px auto;
+    }
+
+    td {
+        font-size: 11px;
+        padding: 2px;
+    }
+
+    th {
+        padding: 5px;
+        max-width: 100px;
+        max-height: 80px;
+        font-size: 11px;
+    }
+
+    /* SOBRE */
+
+    #linguagens {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-left: -40px;
+    }
+
+    #linguagens img {
+        width: 80px;
+        padding-top: 5px;
+    }
+
+    #div-linguagens {
+        background-color: #0D0D0D;
+        color: white;
+        font-size: 15px;
+        font-family: 'Segoe UI';
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 5px 5px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 350px;
+    }
+
+    #text {
+        background-color: white;
+        color: black;
+        font-family: 'Verdana';
+        font-size: 16px;
+        padding: 5px 0 5px 0;
+        margin-left: 10px;
+    }
+
+    #text a {
+        color: black;
+        font-family: 'Verdana';
+        font-size: 16px;
+        text-decoration: underline;
+    }
+
+    #projeto {
+        color: black;
+        font-size: 16px;
+        font-family: 'Verdana';
+        padding: 7px 7px;
+        margin-top: 25px;
+    }
+
+    #container hr {
+        color: #0D0D0D;
+        margin-right: 50px;
+    }
+
+    #container {
+        margin: 20px 10px 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* EQUIPE */
+
+    #info {
+        margin: 10px 18px 9px 10px;
+    }
+    
+    #info p {
+        font-size: 16px;
+        font-family: Verdana;
+    }
+    
+    #info b {
+        color: #010326;
+    }
+    
+    #grupo {
+        height: 265px;
+        width: 265px;
+        margin: 15px 20px 9px 70px;
+    }
+    
+    #container-e {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #container-e img {
+        margin-left: 60px;
+    }
+    
+    #container-e hr {
+        margin-right: 98px;
+    }
+}
+
+/***************** RESPONSIVO TABLET *****************/
+
+@media (min-width:768px) and (max-width: 992px) {
+
+    header {
+        padding: 20px 20px;
+        background-color: #0D0D0D;
+        color: white;
+        display: flex;
+        font-family: Impact;
+        font-size: 21px;
+    }
+
+    nav a {
+        margin: 5px 30px 5px 0;
+        font-size: 20px;
+        font-family: Impact;
+        text-decoration: none;
+        color: white;
+    }
+
+    /* INDEX */
+
+    #container-index {
+        width: 95%;
+        margin: 0px auto 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mapa {
+        height: 400px;
+        width: 100%;
+    }
+
+    #pizza {
+        height: 400px;
+        width: 100%;
+    }
+
+    #t-mapa {
+        margin: 30px auto;
+        width: 100%;
+    }
+
+    #t-pizza {
+        margin: 30px auto;
+        width: 95%;
+    }
+
+    #t-tabela {
+        margin: 0 auto 40px auto;
+        align-items: center;
+    }
+
+    #titulo-table {
+        width: 93%;
+        padding: 5px 5px;
+        background-color: #0D0D0D;
+        font-size: 22px;
+        font-family: 'Segoe UI';
+        color: white;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 7px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #tabela {
+        font-size: 10px;
+        margin-left: auto;
+    }
+
+    #grandao {
+        max-width: 100%;
+        max-height: 100px;
+        margin: 5px auto 1300px auto;
+    }
+
+    td {
+        font-size: 20px;
+        padding: 7px;
+    }
+
+    th {
+        padding: 7px;
+        max-width: 735px;
+        max-height: 80px;
+        font-size: 28px;
+    }
+
+    .t-div {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* SOBRE */
+
+    #linguagens {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        margin-left: -40px;
+    }
+
+    #linguagens img {
+        width: 90px;
+        padding-top: 5px;
+    }
+
+    #div-linguagens {
+        background-color: #0D0D0D;
+        color: white;
+        font-size: 22px;
+        font-family: 'Segoe UI';
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 5px 5px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 770px;
+    }
+
+    #text {
+        background-color: white;
+        color: black;
+        font-family: 'Verdana';
+        font-size: 22px;
+        padding: 5px 0 5px 0;
+        margin-left: 10px;
+    }
+
+    #text a {
+        color: black;
+        font-family: 'Verdana';
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    #projeto {
+        color: black;
+        font-size: 22px;
+        font-family: 'Verdana';
+        padding: 7px 7px;
+        margin-top: 25px;
+    }
+
+    #container hr {
+        color: #0D0D0D;
+        margin-right: 50px;
+    }
+
+    #container {
+        margin: 20px 10px 0 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* EQUIPE */
+
+    #info {
+        margin: 10px 18px 9px 10px;
+    }
+    
+    #info p {
+        font-size: 23px;
+        font-family: Verdana;
+    }
+    
+    #grupo {
+        height: 320px;
+        width: 320px;
+        margin: 15px 220px 9px 0;
+    }
+
+    #container-e img {
+        margin-left: 240px;
+    }
+    
+    #container-e {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #container-e hr {
+        margin-right: 50px;
+    }
+}

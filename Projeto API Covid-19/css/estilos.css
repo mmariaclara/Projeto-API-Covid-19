@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    padding: 38px 38px;
+    background-color: #0D0D0D;
+    color: white;
+    display: flex;
+    font-family: Impact;
+    font-size: 27px;
+}
+
+#img-header {
+    height: 98px;
+    margin: 0 55px 0 30px;
+}
+
+nav {
+    display: flex;
+    padding: 0 10px 0 10px;
+    background-color: #3E3E3E;
+    justify-content: right;
+}
+
+nav a {
+    margin: 5px 50px 5px 0;
+    font-size: 18px;
+    font-family: Impact;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+   color: #252323;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    background-color: #0D0D0D;
+    color: white;
+    font-family: 'Impact';
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+#img-footer {
+    display: flex;
+    justify-content:left;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+.imgf {
+    width: 25px;
+}
+
+/* INDEX.HTML */
+
+#div-erro {
+    background-color: firebrick;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border-color: darkred;
+    display: none;
+    margin: 25px 0px;
+}
+
+#t-mapa {
+    margin: 30px 10px;
+}
+
+#t-pizza {
+    margin: 30px 30px;
+}
+
+#t-tabela {
+    margin: 0 350px 40px 350px;
+    align-items: center;
+}
+
+thead {
+    background-color: #3E3E3E;
+    color: white;
+}
+
+td {
+    border: 1px #0D0D0D solid;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#mapa {
+    height: 450px;
+    width: 600px;
+}
+
+#pizza {
+    height: 450px;
+    width: 550px;
+}
+
+#titulo {
+    padding: 7px 7px;
+    background-color: #0D0D0D;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#titulo-table {
+    width: 746px;
+    padding: 7px 7px;
+    background-color: #0D0D0D;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    color: white;
+    margin-left: 352px;
+    margin-right: 407px;
+    margin-top: 25px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#container-index {
+    margin: 20px 100px 0 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+/**** SOBRE.HTML ****/
+
+#linguagens {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: -85px;
+    margin-bottom: 40px;
+}
+
+#linguagens img {
+    width: 100px;
+}
+
+#div-linguagens {
+    background-color: #0D0D0D;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 7px 7px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#text {
+    background-color: white;
+    color: black;
+    font-family: 'Verdana';
+    font-size: 16px;
+    padding: 5px 0 5px 0;
+    margin-right: 50px;
+}
+
+#projeto {
+    color: black;
+    font-size: 20px;
+    font-family: 'Verdana';
+    padding: 7px 7px;
+    margin-top: 25px;
+}
+
+#container hr {
+    color: #0D0D0D;
+    margin-right: 50px;
+}
+
+#container {
+    margin: 20px 100px 0 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#text a {
+    color: black;
+    font-family: 'Verdana';
+    font-size: 16px;
+    text-decoration:underline;
+}
+
+/**** EQUIPE.HTML ****/
+
+#info {
+    margin: 115px 180px 90px 100px;
+}
+
+#info p {
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+#grupo {
+    height: 300px;
+    width: 300px;
+    margin: 115px 30px 90px 80px;
+}
+
+#container-e {
+    display: flex;
+}
+
+#aluno {
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    font-family: 'Verdana';
+    padding: 7px 7px;
+}
+
+#professores {
+    text-align: left;
+    color: black;
+    font-size: 15px;
+    font-family: 'Verdana';
+    padding: 7px 7px;
+}
+
+#grupo {
+    width: 280px;
+    height: 280px;
+}
+
+#container-e img {
+    margin-left: 190px;
+}
+
+#container-e hr {
+    margin-right: 98px;
+}
